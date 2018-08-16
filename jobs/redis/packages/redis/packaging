@@ -1,1 +1,6 @@
-set -e
+set -ex
+
+tar xfv redis/redis-4.0.11.tar.gz
+pushd redis-4.0.11
+  make PREFIX=${BOSH_INSTALL_TARGET} install
+popd
