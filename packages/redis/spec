@@ -1,0 +1,7 @@
+---
+name: redis
+
+dependencies: []
+
+files:
+- redis/redis-4.0.11.tar.gz # From http://download.redis.io/releases/redis-4.0.11.tar.gz
